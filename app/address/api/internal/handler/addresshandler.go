@@ -3,9 +3,9 @@ package handler
 import (
 	"net/http"
 
-	"github.com/tal-tech/go-zero/rest/httpx"
-	"go-zero-demo/address/internal/logic"
-	"go-zero-demo/address/internal/svc"
+	"github.com/zeromicro/go-zero/rest/httpx"
+	"object/app/address/api/internal/logic"
+	"object/app/address/api/internal/svc"
 )
 
 func AddressTreeHandler(svcCtx *svc.ServiceContext) http.HandlerFunc {

@@ -4,10 +4,10 @@ import (
 	"context"
 
 	"github.com/jinzhu/copier"
-	"github.com/tal-tech/go-zero/core/logx"
-	"go-zero-demo/address/internal/model"
-	"go-zero-demo/address/internal/svc"
-	"go-zero-demo/address/internal/types"
+	"github.com/zeromicro/go-zero/core/logx"
+	"object/app/address/api/internal/model"
+	"object/app/address/api/internal/svc"
+	"object/app/address/api/internal/types"
 )
 
 type AddressLogic struct {

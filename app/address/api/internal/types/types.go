@@ -9,6 +9,6 @@ type Response struct {
 	JingUuid string `json:"jing_uuid"`
 	ParentId string `json:"parent_id"`
 	Name     string `json:"name"`
-	Code     string `json:"code"`
+	Code     string      `json:"code"`
 	Child    []*Response `json:"child"`
 }

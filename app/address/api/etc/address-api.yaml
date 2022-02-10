@@ -1,0 +1,10 @@
+Name: address-api
+Host: 0.0.0.0
+Port: 8888
+
+Mysql:
+  DataSource: root:a6229756088@tcp(sh-cdb-1ipfj0gw.sql.tencentcdb.com:58930)/test?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+
+Cache:
+  - Host: 81.68.97.32:6379
+    Pass: a6229756088

@@ -4,9 +4,9 @@ package handler
 import (
 	"net/http"
 
-	"go-zero-demo/address/internal/svc"
+	"object/app/address/api/internal/svc"
 
-	"github.com/tal-tech/go-zero/rest"
+	"github.com/zeromicro/go-zero/rest"
 )
 
 func RegisterHandlers(server *rest.Server, serverCtx *svc.ServiceContext) {

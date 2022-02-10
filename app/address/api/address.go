@@ -4,12 +4,12 @@ import (
 	"flag"
 	"fmt"
 
-	"go-zero-demo/address/internal/config"
-	"go-zero-demo/address/internal/handler"
-	"go-zero-demo/address/internal/svc"
+	"object/app/address/api/internal/config"
+	"object/app/address/api/internal/handler"
+	"object/app/address/api/internal/svc"
 
-	"github.com/tal-tech/go-zero/core/conf"
-	"github.com/tal-tech/go-zero/rest"
+	"github.com/zeromicro/go-zero/core/conf"
+	"github.com/zeromicro/go-zero/rest"
 )
 
 var configFile = flag.String("f", "etc/address-api.yaml", "the config file")
